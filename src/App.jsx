@@ -19,7 +19,7 @@ const App = () => {
   const [isLoading, setIsLoading] = React.useState(true);
 
   React.useEffect(() => {
-    const ser = "http://10.0.12.196:3001/test/3";
+    const ser = "http://10.0.12.196:3001/test/3/OSA";
     axios.get(ser).then((res) => {
       SetAnswer(res.data);
       setIsLoading(false);
