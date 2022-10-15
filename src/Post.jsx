@@ -13,11 +13,11 @@ import {
     Legend,
   } from "recharts"
 
-const Post = () => {
+const Post = (data) => {
     const[otv,setOtv] =React.useState([])
     React.useEffect(() => {
-        const ser = "http://10.0.12.196:3001/test/3/rezult";
-        axios.post(ser,otvetmax.rezult).then((res) => {
+        const ser = "http://10.0.12.196:3001/test/3/OSA/rezult";
+        axios.post(ser,data).then((res) => {
             setOtv(res.data)
           console.log(otv)
           console.log(res)
