@@ -11,25 +11,25 @@ const Auth = () => {
   const [midleName,  setMidleName] = React.useState("");
   const [date,  setdate] = React.useState("");
 
-  // const [user, setUser] = React.useState(null);
-  // const API_URL = "http://localhost:300/login";
+  const [user, setUser] = React.useState(null);
+  const API_URL = "http://localhost:300/login";
 
-  // const { mutate, isLoading } = useMutation(
-  //   "login",
-  //   () =>
-  //     axios.post(
-  //       `${API_URL}`,
-  //       { name,lastName,midleName,date },
-  //       {
-  //         headers: { "Content-Type": "application/json" },
-  //       }
-  //     ),
-  //   {
-  //     onSuccess: ({ data }) => {
-  //       setUser(data);
-  //     },
-  //   }
-  // );
+  const { mutate, isLoading } = useMutation(
+    "login",
+    () =>
+      axios.post(
+        `${API_URL}`,
+        { name,lastName,midleName,date },
+        {
+          headers: { "Content-Type": "application/json" },
+        }
+      ),
+    {
+      onSuccess: ({ data }) => {
+        setUser(data);
+      },
+    }
+  );
 
   return (
     <div className="wrapper">
@@ -39,23 +39,25 @@ const Auth = () => {
             type="text"
             placeholder="Фамилия"
            value={lastName}
-           onChange={(e)=>}
+           onChange={(e)=>setLastName(e.target.value)}
             
           />
           <input
             type="text"
             placeholder="Имя"
             value={name}
+            onChange={(e)=>setName(e.target.value)}
             
           />
            <input
             type="text"
             placeholder="Отчество"
             value={midleName}
+            onChange={(e)=>setMidleName(e.target.value)}
            
           />
           <DatePicker/>
-          <button >Вход</button>
+          <button onClick={() => mutate()} >Вход</button>
         </div>
       <div>
 <span>

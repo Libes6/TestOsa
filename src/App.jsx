@@ -1,14 +1,15 @@
 import React from "react";
-import { Button } from "antd";
 import axios from "axios";
-import variable from "./1";
-import Post from "./Post";
-import Get from "./Get"
-import Auth from "./Auth";
-import "./App.css";
-import "antd/dist/antd.css";
-import style from "./App.module.scss"
-let testTexs = variable.rezult;
+
+import "./scss/app.scss";
+
+
+import AuthC from ".//Component/Auth/Auth";
+import Post from "./Pages/Post";
+import Get from "./Pages/Get"
+import Auth from "./Pages/Auth";
+import Main from "./Pages/Main/Main";
+
 
 
 const App = () => {
@@ -16,10 +17,14 @@ const App = () => {
 
   return (
    
-<div>
-  <Auth />
+<>
+  {/* <Auth /> */}
+  {/* <AuthC/> */}
+  <Main/>
 {/* <Get/> */}
-</div>
+
+</>
+
   );
 };
 

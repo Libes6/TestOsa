@@ -1,6 +1,6 @@
 import React from 'react'
 import axios from 'axios';
-import otvetmax from "./2"
+import otvetmax from "../2"
 import ReactDOM from 'react-dom';
 import {  
     XAxis,

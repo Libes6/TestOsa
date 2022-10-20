@@ -1,17 +1,12 @@
 import React from "react";
 import { Button } from "antd";
 import axios from "axios";
-import variable from "./1";
 import Post from "./Post";
 import {Route,Routes} from "react-router-dom"
-import "./App.css";
 import "antd/dist/antd.css";
-import style from "./App.module.scss"
-let testTexs = variable.rezult;
+import style from "../App.module.scss"
 
 
-
-const max = [];
 
 const Get = () => {
   const [count, setCount] = React.useState(0);
@@ -28,7 +23,6 @@ const Get = () => {
     });
   }, []);
 
-  // testTex.map((itm)=>max.push(itm))
   let copy = Object.assign([], testTex);
 
   const answers = (data) => {
