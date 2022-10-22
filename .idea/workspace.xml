@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a2bf81-aae8-4450-9e18-2d14addc34d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Auth.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Get.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Post.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Auth/Auth.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Auth/Auth.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Auth/Auth.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Auth/Auth.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Auth/Form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Auth/Form.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Auth.jsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +35,27 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,6 +65,9 @@
       <option name="presentableId" value="Default" />
       <updated>1666191720470</updated>
       <workItem from="1666191724536" duration="73000" />
+      <workItem from="1666269776059" duration="1300000" />
+      <workItem from="1666272975923" duration="34000" />
+      <workItem from="1666421236689" duration="1585000" />
     </task>
     <servers />
   </component>

@@ -7,7 +7,7 @@ import "./scss/app.scss";
 import AuthC from ".//Component/Auth/Auth";
 import Post from "./Pages/Post";
 import Get from "./Pages/Get"
-import Auth from "./Pages/Auth";
+import Auth from "./Pages/Auth/Auth";
 import Main from "./Pages/Main/Main";
 
 
@@ -19,8 +19,8 @@ const App = () => {
    
 <>
   {/* <Auth /> */}
-  {/* <AuthC/> */}
-  <Main/>
+  {/*<AuthC/>*/}
+   <Main/>
 {/* <Get/> */}
 
 </>
